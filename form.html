@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="txt/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/form.css">
+  <title>Форма обратной связи</title>
+  
+  <body>
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+    <input type="hidden" name="access_key" value="d1a1b0d1-61c4-4682-b8fd-3a1c64874dab">
+      <label for="name">Укажите имя</label>
+    <input type="text" name="name" required>
+      <label for="email">Укажите почту</label>
+    <input type="email" name="email" required>
+      <label for="message">Укажите текст</label>
+    <textarea name="message" required></textarea>
+    <button type="submit">Submit Form</button>
+
+</form>
+    
+  </body>
+</head>
+</html>
