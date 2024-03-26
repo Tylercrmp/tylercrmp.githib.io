@@ -1,3 +1,0 @@
-# tylercrmp.githib.io
-
-привет
